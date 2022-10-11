@@ -6,8 +6,9 @@ from bs4 import BeautifulSoup
 
 
 def findname(table):
+    h_name= table.find('div',{'class': 'fcab3ed991 a23c043802'}).text
+    return h_name
 
-	return
 
 
 def findprice(table):
