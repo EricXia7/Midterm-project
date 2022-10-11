@@ -18,6 +18,9 @@ def findprice(table):
         h_price=tmp[:tmp.find('<')]
     else:
         h_price = elt.text
+    if(h_price.count('$')>1):
+        s = h_price[1:].find('$')
+        h_price = h_price[s+1:]
 	return float(h_price.replace(' ', ' ').replace('$','').replace(',',''))
 
 
