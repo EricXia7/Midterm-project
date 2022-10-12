@@ -10,7 +10,7 @@ We scrape the data from the website using BeautifulSoup and requests. We can fin
 ### Rerun instructions
 * First, select "Use this template" and create a repository with the name "Midterm-project".
 * Second, clone the repo, running `cd Midterm-project` to open the repository
-* Third, run `python code/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
+* Third, run `python scrape/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
 * Forth, 
 
 
