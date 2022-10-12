@@ -85,3 +85,15 @@ if __name__ == '__main__':
     else:
         shutil.rmtree(filepath,ignore_errors=True)
         os.mkdir(filepath)
+
+    for month in [1,11,12]:
+        year = '2022'
+        if(month==1):
+            year='2023'
+        data = crawl_booking_data(year,str(month))
+
+
+        with open (filepath+year+str(month)+'.csv','w',encoding='utf-8',newline='') as fp:
+            writer =csv.writer(fp)
+            writer.writerow(header)
+            writer.writerows(data)
