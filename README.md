@@ -1,6 +1,6 @@
 # Midterm Project Report
 ## Overview
-The goal of our project is to examine the relationship between the price of hotels in Austin and their distance from downtown, the rating scores and whether it is on holiday. 
+Hotel plays an important role in people’s traveling life. Being in a competitive hotel industry, different hotels have various pricing strategy. Setting the background in ATX, we’re interested in analyzing the data scraped from Booking.com to find whether some specified factor has obvious influence on a hotel’s price and examine the seasonality in pricing. 
 ## Data
 ### Datasets Sources
 Our data sets consist of the name, distance from downtown, price and rating scores of hotels in Austin. The three separate datasets are from Thanksgiving holiday, Christmas holiday and non-holiday, which are the same period of three months: November 21-27, 2022, December 21-27, 2022 and January 21-27, 2023. All our data is from https://www.booking.com/.
@@ -18,6 +18,19 @@ We scrape the data from the website using BeautifulSoup and requests. We can fin
 * 8. Go to Jupyter Home Page, open November_Filtered.ipyn, run all the code.
 * 9. Go to Jupyter Home Page, open Filtered_Plot.ipyn, run all the code.
 * 
+
+### Findings
+ 
+The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (I’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
+By separating the high price hotel(price>1000) from the low, a distribution scatter plot (here we used matplotlib.)  
+ The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. This resulted in low sample size for high price hotel across the rest of the area. 
+
+
+         
+By filtering out these clustered data, we rerun the regression.
+                
+The model now has a comparably stronger explanatory ability as the R square increased to 0.51. It’s worth noticing that the score has now a much lower effect on prices, with lower SE. This is a more statistically significant estimate for sthe partial effect core among the normal price hotels. The graph below is the visualization of the regression using  
+ 
 
 
 ### Data Limitations 
