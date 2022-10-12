@@ -61,7 +61,7 @@ The model now has a comparably stronger explanatory ability as the R square incr
 
 
 ### Analysis Extensions
-1. If skill permits, we will scrape the hotle star ratings instead of scores, along with sizes and utility provided. These will be decent qualty variables or indicators that allow us to make up the unobserved factors.
+1. If skill permits, we will scrape the hotel star ratings instead of scores, along with sizes and utility provided. These will be decent qualty variables or indicators that allow us to make up the unobserved factors.
 2. With these indicators, we can set score as the depeendent variables and re-exmaine the price effect on scores, this can be a pricing strategy supplimentary resources for targeting the optimal price, within its class(price range), to boost up the scores.
 3. The abnormal seasonality in price was an interesting finding, we can get larger data samples from more time periods and conduct time series analysis, which will generate a more comprehensive result and further test our hypothesis in the present findings.
 
