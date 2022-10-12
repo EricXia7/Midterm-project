@@ -8,10 +8,14 @@ Our data sets consist of the name, distance from downtown, price and rating scor
 We scrape the data from the website using BeautifulSoup and requests. We can find the name，score and distance from city center of each hotel by positioning the div in the HTML. Then we do the same thing to the price. We can use the dollar sign ($) to help us find the position when the price element cannot be found. And then we can convert the price from a string to a float. Finally, we extract the data of November, December and January and save them into csv files.
 
 ### Rerun instructions
-* First, select "Use this template" and create a repository with the name "Midterm-project".
-* Second, clone the repo, running `cd Midterm-project` to open the repository
-* Third, run `python scrape/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
-* Forth, 
+* 1. select "Use this template" and create a repository with the name "Midterm-project".
+* 2. clone the repo, running `cd Midterm-project` to open the repository
+* 3. run `python scrape/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
+* 4. launch Jupyter notebook on terminal, click on November.ipyn
+* 5. Run the code
+* 6. Go to Jupyter Home Page, open NovemberPlot.ipyn, run all the code.
+* 7. Go to Jupyter Home Page, open NovemberFiltered.ipyn, run all the code.
+* 
 
 
 ### Data Limitations 
