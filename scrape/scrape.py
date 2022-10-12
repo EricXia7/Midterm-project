@@ -9,7 +9,8 @@ def findname(table):
     '''
       Scrape hotel name as a string
     '''
-    return
+    h_name= table.find('div',{'class': 'fcab3ed991 a23c043802'}).text
+    return h_name
 
 
 def findprice(table):
