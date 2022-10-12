@@ -26,3 +26,10 @@ print('Coefficients: \n', regr.coef_)
 
 
 
+x = sm.add_constant(x) 
+ 
+model = sm.OLS(y, x).fit()
+predictions = model.predict(x) 
+ 
+print_model = model.summary()
+print(print_model)
