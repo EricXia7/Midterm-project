@@ -72,3 +72,13 @@ def crawl_booking_data(year,month):
 
 
 
+if __name__ == '__main__':
+    header = ['name','price','score','dis']
+    filepath = 'out/'
+
+
+    if not os.path.exists('out/'):
+        os.mkdir(filepath)
+    else:
+        shutil.rmtree(filepath,ignore_errors=True)
+        os.mkdir(filepath)
