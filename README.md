@@ -52,7 +52,7 @@ The model now has a comparably stronger explanatory ability as the R square incr
 
 ### Analysis Limitations 
 1. We lacked a better hotel quality indicator, which could have major impact on the price. 
-2. In real world, lots of other factors may result in hotels ‘pricing strategy, such as star rating of the hotel，distance to famous tourist palaces/airports and railway stations, the square of a room and the utility provided. These kinds of factors which weren’t collected in this project may lay great influence on price of a hotel.
+2. In real world, lots of other factors may result in hotels ‘pricing strategy, such as star rating of the hotel，distance to famous tourist palaces/airports and railway stations, the size of a room and the utility provided. These kinds of factors which weren’t collected in this project may lay great influence on price of a hotel.
 3. On a second look, price might not be a great dependent variable with the presence of score. A good score can be given either because of the good services and great facilities, or an out-of-expectation experience given a low price. In the latter case, price could be an independent variable.
 
 
@@ -60,7 +60,8 @@ The model now has a comparably stronger explanatory ability as the R square incr
 
 
 
-### Data Extensions
-We could consider to include the availability of specific popular amenities such as gyms, swimming pools, parking lots and free WiFi as binary variables in the regression analysis to see the relationship between them and the price or rating scores.
-We could quantify the room type such as the bed size, to see whether a different bed size will lead to different prices or rating scores. 
-However, because the room types and amenities of different hotels or apartments are named very differently, it is difficult to identify and integrate the data. 
+### Analysis Extensions
+1. If skill permits, we will scrape the hotle star ratings instead of scores, along with sizes and utility provided. These will be decent qualty variables or indicators that allow us to make up the unobserved factors.
+2. With these indicators, we can set score as the depeendent variables and re-exmaine the price effect on scores, this can be a pricing strategy supplimentary resources for targeting the optimal price, within its class(price range), to boost up the scores.
+3. The abnormal seasonality in price was an interesting finding, we can get larger data samples from more time periods and conduct time series analysis, which will generate a more comprehensive result and further test our hypothesis in the present findings.
+
