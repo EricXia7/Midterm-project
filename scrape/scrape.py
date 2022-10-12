@@ -23,6 +23,10 @@ def findprice(table):
         h_price=tmp[:tmp.find('<')]
     else:
         h_price = elt.text
+    # when there is a discount, there will be two '$', we will exclude the previous pirce.
+    if(h_price.count('$')>1):
+        s = h_price[1:].find('$')
+        h_price = h_price[s+1:]
     return float(h_price.replace(' ', ' ').replace('$','').replace(',',''))
 
 
@@ -82,15 +86,15 @@ def crawl_booking_data(year,month):
 
 if __name__ == '__main__':
     header = ['name','price','score','dis']
-    filepath = 'out/'
+    filepath = '../dataset/'
 
 
-    if not os.path.exists('out/'):
+    if not os.path.exists('../dataset/'):
         os.mkdir(filepath)
     else:
         shutil.rmtree(filepath,ignore_errors=True)
         os.mkdir(filepath)
-
+    # if there is already a file named 'dataset', we will delete it and update a new one.
     for month in [1,11,12]:
         year = '2022'
         if(month==1):
