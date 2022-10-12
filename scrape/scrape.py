@@ -17,7 +17,13 @@ def findprice(table):
     '''
       Scrape hotel price as a float
     '''
-    return
+    elt= table.find('div',{'data-testid': 'price-and-discounted-price'})
+    if(elt==None): 
+        tmp= str(table)[str(table).find('$'):]
+        h_price=tmp[:tmp.find('<')]
+    else:
+        h_price = elt.text
+    return float(h_price.replace(' ', ' ').replace('$','').replace(',',''))
 
 
 def findscore(table):
