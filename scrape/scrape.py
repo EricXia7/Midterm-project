@@ -42,8 +42,13 @@ def finddis(table):
     '''
       Scrape the distance of hotels from city centre as a string
     '''
-
-    return
+    h_dis= table.find('span',{'data-testid': 'distance'}).text
+    e  = h_dis.find(' miles') 
+    if(e>0):
+        h_dis = h_dis[:e]
+    else:
+        h_dis= ''
+    return h_dis
 
 
 def crawl_booking_data(year,month):
