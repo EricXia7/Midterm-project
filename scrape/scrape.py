@@ -86,10 +86,10 @@ def crawl_booking_data(year,month):
 
 if __name__ == '__main__':
     header = ['name','price','score','dis']
-    filepath = '../dataset/'
+    filepath = 'dataset/'
 
 
-    if not os.path.exists('../dataset/'):
+    if not os.path.exists('dataset/'):
         os.mkdir(filepath)
     else:
         shutil.rmtree(filepath,ignore_errors=True)
