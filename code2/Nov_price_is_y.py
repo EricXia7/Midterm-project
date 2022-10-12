@@ -18,12 +18,8 @@ regr = linear_model.LinearRegression()
 regr.fit(x, y)
 
 
-# In[6]:
-
-
 print('Intercept: \n', regr.intercept_)
 print('Coefficients: \n', regr.coef_)
-
 
 
 x = sm.add_constant(x) 
