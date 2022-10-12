@@ -11,10 +11,12 @@ We scrape the data from the website using BeautifulSoup and requests. We can fin
 * 1. select "Use this template" and create a repository with the name "Midterm-project".
 * 2. clone the repo, running `cd Midterm-project` to open the repository
 * 3. run `python scrape/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
-* 4. launch Jupyter notebook on terminal, click on November.ipyn
-* 5. Run the code
-* 6. Go to Jupyter Home Page, open NovemberPlot.ipyn, run all the code.
-* 7. Go to Jupyter Home Page, open NovemberFiltered.ipyn, run all the code.
+* 4. 
+* 5. Launch Jupyter notebook on terminal, click on November.ipyn, run the code
+* 6. Go to Jupyter Home Page, open November_Plot.ipyn, run all the code.
+* 7. Go to Jupyter Home Page, open Nov_Dis.ipyn, run all the code.
+* 8. Go to Jupyter Home Page, open November_Filtered.ipyn, run all the code.
+* 9. Go to Jupyter Home Page, open Filtered_Plot.ipyn, run all the code.
 * 
 
 
