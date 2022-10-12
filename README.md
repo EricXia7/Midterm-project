@@ -22,7 +22,8 @@ We scrape the data from the website using BeautifulSoup and requests. We can fin
 ### Findings
  
 The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (I’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
-By separating the high price hotel(price>1000) from the low, a distribution scatter plot (here we used matplotlib.)  
+By separating the high price hotel(price>1000) from the low, we built a distribution scatter plot (here we used matplotlib.) <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195422261-d600e00e-8313-4984-80c0-069c26f294ab.png">
+ 
  The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. This resulted in low sample size for high price hotel across the rest of the area. 
 
 
