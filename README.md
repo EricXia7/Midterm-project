@@ -20,17 +20,27 @@ We scrape the data from the website using BeautifulSoup and requests. We can fin
 * 
 
 ### Findings
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/112193353/195422407-0db8ea63-2b4c-49e6-a530-4e4a1ef824ca.png">
+
  
 The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (I’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
-By separating the high price hotel(price>1000) from the low, we built a distribution scatter plot (here we used matplotlib.) <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195422261-d600e00e-8313-4984-80c0-069c26f294ab.png">
+By separating the high price hotel(price>1000) from the low, we built a distribution scatter plot (here we used matplotlib.) 
+
+<img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195422261-d600e00e-8313-4984-80c0-069c26f294ab.png">
  
  The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. This resulted in low sample size for high price hotel across the rest of the area. 
 
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/112193353/195422461-047a85f6-ba66-489a-9566-f72a5b910a1a.png">
 
          
 By filtering out these clustered data, we rerun the regression.
+
+<img width="299" alt="image" src="https://user-images.githubusercontent.com/112193353/195422515-2ec4342e-d5e7-4fe4-8203-8eb8512673bf.png">
                 
-The model now has a comparably stronger explanatory ability as the R square increased to 0.51. It’s worth noticing that the score has now a much lower effect on prices, with lower SE. This is a more statistically significant estimate for sthe partial effect core among the normal price hotels. The graph below is the visualization of the regression using  
+The model now has a comparably stronger explanatory ability as the R square increased to 0.51. It’s worth noticing that the score has now a much lower effect on prices, with lower SE. This is a more statistically significant estimate for sthe partial effect core among the normal price hotels. The graph below is the visualization of the regression using matplotlib for 3D.
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/112193353/195422764-15dfd932-9990-4f48-92b7-47f4e9f5e87a.png">
+
  
 
 
