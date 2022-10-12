@@ -7,11 +7,11 @@ Our data sets consist of the name, distance from downtown, price and rating scor
 ### Collection Methods
 We scrape the data from the website using BeautifulSoup and requests. 
 ###Rerun instructions
-First, select "Use this template" and create a repository with the name "Midterm-project".
-Second, clone the repo, running `cd Midterm-project` to open the repository
-Third, run `python code/scrape.py`, you will see a new file named “out” in the code folder.
-Forth, 
-
+First, select "Use this template" and create a repository with the name "Midterm-project".
+Second, clone the repo, running `cd Midterm-project` to open the repository
+Third, run `python code/scrape.py`, you will see a new file named “out” in the code folder.
+Forth, 
+
 
 ### Data Limitations 
 One issue that must be confronted here is that there is a certain incompleteness in our data due to the display mechanism of the website. When a hotel's available room types are all sold out, it will not be shown in the search list, which will inevitably lead to some inaccuracy. Another limitation is that considering the difficulty of quantifying, our data do not include the information of room type such as bed size and only use two adults to one room as a control variable condition. 
