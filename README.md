@@ -46,7 +46,7 @@ Thirdly, we decided to use ols regression to see the efficiency of the independe
 For the second sublet for data regarding holidays, we also could see distance has a negative relationship with price while score have a positive relationship with price. However, since R-squared is only 0.256, we may also draw a conclusion that both distance and score do not have a good explanation for price.
 
 
-<img width="355" alt="image" src="https://user-images.githubusercontent.com/112193353/195422407-0db8ea63-2b4c-49e6-a530-4e4a1ef824ca.png">
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/112193353/195422407-0db8ea63-2b4c-49e6-a530-4e4a1ef824ca.png">
 
  
 The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (we’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
