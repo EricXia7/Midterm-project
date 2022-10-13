@@ -32,7 +32,7 @@ We could consider to include the availability of specific popular amenities such
 We used Pandas to import the data from our scraping result files.
 To perform the OLS multiple regression analysis on Python environment, we installed the StatsModel.  
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496658-d02e555e-eb92-4f38-9ffe-d42e7fc81534.png">. 
-This package allowed us to add intercept term and print out the complete regression table that facilitates the model efficiency evaluation. A multiple regression yields a 3-dimensional plot, to visualize our findings, we also installed matplotlib. <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496736-97c60b7f-0e8a-4b4b-ab94-001aa78e37f7.png">, which generates 3 D graphs.
+This package allowed us to add intercept term and print out the complete regression table that facilitates the model efficiency evaluation. A multiple regression yields a 3-dimensional plot, to visualize our findings, we also installed matplotlib. <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496736-97c60b7f-0e8a-4b4b-ab94-001aa78e37f7.png">, which generates 2D and 3D graphs.
 To increase the comparability for the cross time periods analysis, we made some data cleaning which only allowed hotels that appear on all three months’ search results to be in the data frame. To better observe the seasonality in prices, this analysis sublet the data into 2 sets: November & December as holiday category, and January data as non-holiday group.
 
 
