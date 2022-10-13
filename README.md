@@ -45,7 +45,7 @@ Firstly, we found that hotels’price is generally higher in normal days (blue b
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195474434-8fb0c3a3-2ab9-42cc-9376-8115f567c536.png">
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195474471-0c07d2ce-4723-4a67-bf5f-b007d7cbd14a.png">
 
-Secondly, scatter plot1 demonstated a positive correlation between distance with price (x is distance and y is price).We could see that the relatively higher price appears in the nearer distance from downtown which may give us some information that distance somehow has positive relationship with price. However, it does not show an abvious pricing declining with the increase of distance, which may illustrate that distance is not an important key factor deciding price. From scatter plot2, we could not see an obvious change in y( price) with change of x(score). Most of plots are concentrated at round score 8-9.
+Secondly, scatter plot1 demonstated a negative correlation between distance with price (x is distance and y is price).We could see that the relatively higher price appears in the nearer distance from downtown which may give us some information that distance somehow has positive relationship with price. However, it does not show an abvious pricing declining with the increase of distance, which may illustrate that distance is not an important key factor deciding price. From scatter plot2, we could not see an obvious change in y( price) with change of x(score). Most of plots are concentrated at round score 8-9.
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195475441-ab31dfb2-bbff-4cfb-bad0-645338eddbab.png">
 
