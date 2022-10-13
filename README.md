@@ -26,10 +26,20 @@ We could consider to include the availability of specific popular amenities such
 * 9. Go to Jupyter Home Page, open Filtered_Plot.ipyn, run all the code.
 * 
 
+## Analysis
+
+### Methods
+We used Pandas to import the data from our scraping result files.
+To perform the OLS multiple regression analysis on Python environment, we installed the StatsModel.  
+<img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496658-d02e555e-eb92-4f38-9ffe-d42e7fc81534.png">. 
+This package allowed us to add intercept term and print out the complete regression table that facilitates the model efficiency evaluation. A multiple regression yields a 3-dimensional plot, to visualize our findings, we also installed matplotlib. <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496736-97c60b7f-0e8a-4b4b-ab94-001aa78e37f7.png">, which generates 3 D graphs.
+To increase the comparability for the cross time periods analysis, we made some data cleaning which only allowed hotels that appear on all three months’ search results to be in the data frame. To better observe the seasonality in prices, this analysis sublet the data into 2 sets: November & December as holiday category, and January data as non-holiday group.
+
+
 ### Findings
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195473356-62bc1725-4380-429e-b133-deae3a639653.png">
-Firstly, we found that hotels’price is generally higher in normal days (blue boxplot) than in holiday days (orange and green boxplot). Compared with holiday days, we found a higher Highest point, Upper Quartile as well as Median In normal days. However, there are more outliers in holiday days.
+Firstly, we found that hotels’price is generally higher in normal days (blue boxplot) than in holiday days (orange and green boxplot). Compared with holiday days, we found a higher Highest point, Upper Quartile as well as Median In normal days. However, there are more outliers in holiday days. This is a rather abnormal finding as intuitively holiday seasons generate higher demand. One possible explaination to this result could be that the city of Austin is (and especially recently) a "immigrant city", as University students and employees of growing start-ups are becoming the high propotion of the population. Therefore, people flee out of the city during the holidays and demand goes down. 
 
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195474434-8fb0c3a3-2ab9-42cc-9376-8115f567c536.png">
