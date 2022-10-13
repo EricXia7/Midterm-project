@@ -30,18 +30,19 @@ We could consider to include the availability of specific popular amenities such
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195473356-62bc1725-4380-429e-b133-deae3a639653.png">
 Firstly, we found that hotels’price is generally higher in normal days (blue boxplot) than in holiday days (orange and green boxplot). Compared with holiday days, we found a higher Highest point, Upper Quartile as well as Median In normal days. However, there are more outliers in holiday days.
 
+
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195474434-8fb0c3a3-2ab9-42cc-9376-8115f567c536.png">
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195474471-0c07d2ce-4723-4a67-bf5f-b007d7cbd14a.png">
 
-Secondly, scatter plot1 demonstated a positive correlation between distance with price (x is distance and y is price).We could see that the relatively higher price appears in the nearer distance from downtown which may give us some information that distance somehow has positive relationship with price. However, it does not show an abvious pricing declining with the increase of distance, which may illustrate that distance is not an important key factor deciding price. From scatter plot2, we could not see an obvious change in y( price) with change of x. Most of plots are concentrated at round score 8-9.
+Secondly, scatter plot1 demonstated a positive correlation between distance with price (x is distance and y is price).We could see that the relatively higher price appears in the nearer distance from downtown which may give us some information that distance somehow has positive relationship with price. However, it does not show an abvious pricing declining with the increase of distance, which may illustrate that distance is not an important key factor deciding price. From scatter plot2, we could not see an obvious change in y( price) with change of x(score). Most of plots are concentrated at round score 8-9.
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195475441-ab31dfb2-bbff-4cfb-bad0-645338eddbab.png">
 
-Thirdly, we decided to use ols regression to see the efficiency of the independent variables. We seperated data into 2 sublets .The first sublet is data from none-holidays. From the ols regression outcome,we found that distance has a negative relationship as price while score may have a positive relationship with price. However, since R-squared is only 0.261, both distance and score may not have a good explanation for price.
+Thirdly, we decided to use ols regression to see the efficiency of the independent variables. We seperated data into 2 sublets .The first sublet is data from none-holidays. From the ols regression outcome,we found that distance has a negative relationship as price while score have a positive relationship with price. However, since R-squared is only 0.261, both distance and score may not have a good explanation for price.
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195476289-d634cd0c-67a8-465c-8aa0-b2e461405446.png">
 
-For the second sublet for data regarding holidays, we also could see distance has a negative relationship as price while score may have a positive relationship with price. However, since R-squared is only 0.256, we may also draw a conclusion that both distance and score do not have a good explanation for price.
+For the second sublet for data regarding holidays, we also could see distance has a negative relationship with price while score have a positive relationship with price. However, since R-squared is only 0.256, we may also draw a conclusion that both distance and score do not have a good explanation for price.
 
 
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/112193353/195422407-0db8ea63-2b4c-49e6-a530-4e4a1ef824ca.png">
