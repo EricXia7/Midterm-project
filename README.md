@@ -64,7 +64,7 @@ By separating the high price hotel(price>1000) from the low, we built a distribu
 
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195422261-d600e00e-8313-4984-80c0-069c26f294ab.png">
  
- The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. This resulted in low sample size for high price hotel across the rest of the area. 
+ The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. These samples has less variations and yet account for a good amount of the dataset.
 
 <img width="518" alt="image" src="https://user-images.githubusercontent.com/112193353/195422461-047a85f6-ba66-489a-9566-f72a5b910a1a.png">
 
