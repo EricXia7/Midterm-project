@@ -56,12 +56,12 @@ By separating the high price hotel(price>1000) from the low, we built a distribu
  
  The plot showed that the majority of high price hotels were distributing around the top left corner, close distance with high score. This resulted in low sample size for high price hotel across the rest of the area. 
 
-<img width="328" alt="image" src="https://user-images.githubusercontent.com/112193353/195422461-047a85f6-ba66-489a-9566-f72a5b910a1a.png">
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/112193353/195422461-047a85f6-ba66-489a-9566-f72a5b910a1a.png">
 
          
 By filtering out these clustered data, we rerun the regression.
 
-<img width="299" alt="image" src="https://user-images.githubusercontent.com/112193353/195422515-2ec4342e-d5e7-4fe4-8203-8eb8512673bf.png">
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/112193353/195422515-2ec4342e-d5e7-4fe4-8203-8eb8512673bf.png">
                 
 The model now has a comparably stronger explanatory ability as the R square increased to 0.51. It’s worth noticing that the score has now a much lower effect on prices, with lower SE. This is a more statistically significant estimate for the partial effect of score among the normal price hotels. The graph below is the visualization of the regression using matplotlib for 3D.
 
