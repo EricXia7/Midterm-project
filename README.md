@@ -29,7 +29,7 @@ We could consider to include the availability of specific popular amenities such
 ## Analysis
 
 ### Methods
-We used Pandas to import the data from our scraping result files.
+We used Pandas to import the data from our scraping result files. To see the general distribution of all data in each time period, we import seaborn to make boxplot.
 To perform the OLS multiple regression analysis on Python environment, we installed the StatsModel.  
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496658-d02e555e-eb92-4f38-9ffe-d42e7fc81534.png">. 
 This package allowed us to add intercept term and print out the complete regression table that facilitates the model efficiency evaluation. A multiple regression yields a 3-dimensional plot, to visualize our findings, we also installed matplotlib. <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195496736-97c60b7f-0e8a-4b4b-ab94-001aa78e37f7.png">, which generates 2D and 3D graphs.
