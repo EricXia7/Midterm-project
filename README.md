@@ -17,7 +17,7 @@ We could consider to include the availability of specific popular amenities such
 * 1. select "Use this template" and create a repository with the name "Midterm-project".
 * 2. clone the repo, running `cd Midterm-project` to open the repository
 * 3. run `python scrape/scrape.py`, you will see a new file named “dataset” in the "Midterm-project" folder.
-* 4. 
+* 4. Lauch Jupyter Lab, choose final-analysis-1.ipyn,run the code.
 * 5. Launch Jupyter notebook on terminal, click on November.ipyn, run the code
 * 6. Go to Jupyter Home Page, open November_Plot.ipyn, run all the code.
 * 7. Go to Jupyter Home Page, open Nov_Dis.ipyn, run all the code.
