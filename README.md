@@ -26,10 +26,18 @@ We could consider to include the availability of specific popular amenities such
 * 
 
 ### Findings
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/112036423/195473356-62bc1725-4380-429e-b133-deae3a639653.png">
+Firstly, we found that hotels’price is generally higher in normal days (blue boxplot) than in holiday days (orange and green boxplot). Compared with holiday days, we found a higher Highest point, Upper Quartile as well as Median In normal days. However, there are more outliers in holiday days.
+
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/112036423/195474434-8fb0c3a3-2ab9-42cc-9376-8115f567c536.png">
+<img width="495" alt="image" src="https://user-images.githubusercontent.com/112036423/195474471-0c07d2ce-4723-4a67-bf5f-b007d7cbd14a.png">
+
+Secondly, scatter plot1 demonstated a positive correlation between distance with price (x is distance and y is price).We could see that the relatively higher price appears in the nearer distance from downtown which may give us some information that distance somehow has positive relationship with price. However, it does not show an abvious pricing declining with the increase of distance, which may illustrate that distance is not an important key factor deciding price. From scatter plot2, we could not see an obvious change in y( price) with change of x. Most of plots are concentrated at round score 8-9.
+
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/112193353/195422407-0db8ea63-2b4c-49e6-a530-4e4a1ef824ca.png">
 
  
-The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (I’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
+The effects of these two variables met our expectation in terms of the directions, but the undesired low R square indicated the low efficiency of the model. Apparently, the data we have is limited (we’ll further address this issue in the Limitation Section), and there are numbers of unobserved factors that are affecting the price. Nevertheless, we tried to improve our model. 
 By separating the high price hotel(price>1000) from the low, we built a distribution scatter plot (here we used matplotlib.) 
 
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/112193353/195422261-d600e00e-8313-4984-80c0-069c26f294ab.png">
