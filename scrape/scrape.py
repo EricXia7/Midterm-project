@@ -31,10 +31,10 @@ def findprice(table):
 
 
 def findscore(table):
-    """
+    '''
       Scrape hotel rating score as a string
-    """
-    elt = table.find('div',{'class': "b5cd09854e d10a6220b4"})
+    '''
+    elt = table.find('div',{'class': 'b5cd09854e d10a6220b4'})
     if(elt==None):
         h_score = ''
     else:
